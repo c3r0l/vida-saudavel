@@ -2,55 +2,50 @@
 	margin:0;
 	padding:0;
   list-style-type: none;
-
-}
- .penis {
-    width: 120px;
-    height: 120px;
-	
-	border-radius: 50%;
-	border: 0.5px solid black;
- }	
-.on-the-left{
-	display:flex;
-	padding:50px;
-	
-	flex-direction:row;
-	justify-content:space-around;
-	
+	font-family:sans-serif;
 }
 
-header img {
-	width: 150px;
-	height: 150px;
+.title{
+	color:#8DC640;
 }
 
-.one{
-	width:50%;
-	text-align:justify;
+p{
+	color:#828282;
 }
 
-.on-the-right{
-	display:flex;
-	justify-content:space-around;
-}
-
-.btn{
+button{
+	width:150px;
 	padding:20px;
-	width:200px;
-	background-color:#8DC640;
-	border:0.1px solid #8DC640;
-	border-radius:20px;
-	
-	padding:15px;
+	border-radius:5%;
+	border:none;
+	background-color:black;
 	color:white;
-	margin-top:20px;
 }
 
-.rd{
-	color:red;
+
+.top-header{
+	padding-top:100px;
+	display:flex;
+	justify-content:center;
 }
 
-.vrd {
-	color:green;
+/*					Panels				*/
+
+.panel{
+	padding-top:150px;
+	display:flex;
+	justify-content:space-around;
+}
+
+.ilustration{
+	width:405px;
+	height:158px;
+}
+
+.subsection{
+	width:250px;
+}
+
+.subsection > .ilustration {
+	padding-top: 20px;
 }

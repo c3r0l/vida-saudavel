@@ -4,16 +4,13 @@
 	list-style-type: none;
 }
 
-nav > img {
-	width: 230px;
-	height:230px;
-}
-
 nav{
 	display:flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	padding-bottom:80px;
+	padding:15px;
 }
 
 nav ul li{
@@ -22,8 +19,4 @@ nav ul li{
 }
 
 
-h1{
-	text-align:center;
-	padding:20px;
-}
 
