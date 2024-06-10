@@ -39,6 +39,12 @@ button{
 .ilustration{
 	width:405px;
 	height:158px;
+	border-radius: 2%;
+
+	
+	box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.46);
+	-webkit-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.46);
+	-moz-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.46);
 }
 
 .subsection{
@@ -68,14 +74,6 @@ button{
 .bsubh {width:500px;}
 .about h1,h4 {color:#8DC640;}
 .about p {color:#828282;}
-.ssubh {
-	width:350px;
-}
-
-.menor {
-	display:flex;
-	flex-direction: row;
-}
 
 .second {padding-left:15px;}
 .text{
