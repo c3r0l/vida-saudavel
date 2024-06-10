@@ -6,16 +6,23 @@
 
 nav{
 	display:flex;
+	position:fixed;
 	align-items: center;
+	width:100%;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-bottom:80px;
 	padding:15px;
+	color:rgb(59, 59, 59);
+	backdrop-filter: blur(6px);
 }
 
 nav ul li{
 	float:left;
 	padding:20px;
+}
+
+.header-logo{
+	width:8ch;
 }
 
 
