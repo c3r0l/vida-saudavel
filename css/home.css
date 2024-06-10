@@ -14,7 +14,6 @@ a{
 	color:#828282;
 }
 
-
 button{
 	width:150px;
 	padding:20px;
@@ -36,9 +35,13 @@ button{
 	gap:20px;
 }
 
+.title {
+	color:#8DC640;
+}
+
 .ilustration{
 	width:405px;
-	height:158px;
+	height:258px;
 	border-radius: 2%;
 
 	
