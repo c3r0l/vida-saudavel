@@ -14,6 +14,10 @@ nav{
 	padding:15px;
 	color:rgb(59, 59, 59);
 	backdrop-filter: blur(6px);
+	background: rgb(141,198,64);
+	background: linear-gradient(180deg, rgba(141,198,64,1) 0%, rgba(113,156,56,1) 46%, rgba(94,124,54,1) 100%);
+	color:white;
+	
 }
 
 nav ul li{
@@ -25,5 +29,6 @@ nav ul li{
 	width:8ch;
 }
 
-
-
+.nav-title {
+	font-family:"Titillium Web";
+}
