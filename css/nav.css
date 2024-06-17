@@ -4,31 +4,25 @@
 	list-style-type: none;
 }
 
+nav > img {
+	width: 230px;
+	height:230px;
+}
+
 nav{
 	display:flex;
-	position:fixed;
-	align-items: center;
-	width:100%;
-	flex-direction: row;
-	justify-content: space-between;
-	padding:15px;
-	color:rgb(59, 59, 59);
-	backdrop-filter: blur(6px);
-	background: rgb(141,198,64);
-	background: linear-gradient(180deg, rgba(141,198,64,1) 0%, rgba(113,156,56,1) 46%, rgba(94,124,54,1) 100%);
-	color:white;
-	
+	flex-direction: column;
+	padding-bottom:80px;
 }
 
 nav ul li{
-	float:left;
+	float:right;
+	padding:20px
+}
+
+
+h1{
+	text-align:center;
 	padding:20px;
 }
 
-.header-logo{
-	width:8ch;
-}
-
-.nav-title {
-	font-family:"Titillium Web";
-}
