@@ -57,6 +57,7 @@ button{
 	display:flex;
 	flex-direction: column;
 	gap: 12px;
+	
 }
 
 /*			About			*/
@@ -74,6 +75,7 @@ button{
 .about-image {
 	width: 400px;
 	border-radius: 1%;
+	margin-right: 125px;
 }
 
 
@@ -106,6 +108,9 @@ form{
 .newsletter p{
 	text-align: center;
 	color:#828282;
+	margin-left: 0%;
 }
 
 .newsletter h1 {color:#5e8d20;}
+
+
